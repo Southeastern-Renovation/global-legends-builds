@@ -23,7 +23,7 @@ There is **no source code** in this repository, only the downloads (under **Rele
 
 ## Install on a Mac
 
-1. Download the Mac zip from the newest release and double-click it. You get **Global Legends.app**.
+1. Download the Mac zip from the newest release (no GitHub account needed). If it comes in pieces, join them first with `HOW-TO-JOIN-Mac.txt`. Double-click the zip. You get **Global Legends.app**.
 2. Drag **Global Legends.app** into **Applications**.
 3. **The first time only,** the Mac blocks the game, because it isn't from the App Store and isn't registered with Apple. That's expected for a home-made game.
    - **macOS 15 (Sequoia) or newer:** double-click the game. When it says Apple couldn't check it, click **Done**. Open **System Settings → Privacy & Security**, scroll down to the message about "Global Legends", click **Open Anyway**, and enter your password.
@@ -41,7 +41,7 @@ xattr -dr com.apple.quarantine "/Applications/Global Legends.app"
 
 ## Install on Windows
 
-1. Download the Windows zip. Right-click it, choose **Properties**, tick **Unblock** if it's there, click **OK**.
+1. Download the Windows zip. If it comes in pieces, join them first with `HOW-TO-JOIN-Windows.txt`. Right-click the zip, choose **Properties**, tick **Unblock** if it's there, click **OK**.
 2. Right-click the zip, choose **Extract All…**, and pick a short folder such as `C:\Games\GlobalLegends`. Don't run the game from inside the zip.
 3. Double-click **GlobalLegends.exe**. If a blue "Windows protected your PC" box appears, click **More info**, then **Run anyway**. If a "Microsoft Visual C++" installer appears, let it install.
 
@@ -77,11 +77,13 @@ On the title screen:
 | **M** | Map |
 | **C** | Codex |
 | **Esc** | Pause menu (it has a **Controls** page). Esc also closes any open window. |
-| **Alt+Enter** (Mac: **Option+Return**) | Full screen or window |
+| **Alt+Enter** or **F11** (Mac: **Option+Return**) | Full screen or window |
 
 There's no jump. At a forge, strike with **Space**, **E** or **left click**, and press **Esc** to step away.
 
-**Controller (partial):** left stick moves, right trigger attacks, left trigger blocks, right bumper bashes, A continues a conversation, Start pauses, Back opens the game menu. The right stick doesn't turn the camera yet.
+Puzzle keys are shown on screen when needed (e.g. the Level 9 ring lever).
+
+**Controller (partial):** left stick moves, right trigger attacks, left trigger blocks, right bumper bashes, A continues a conversation, Start pauses, Back opens the game menu. v0.1: Interact is keyboard E only. The right stick doesn't turn the camera yet.
 
 ---
 
